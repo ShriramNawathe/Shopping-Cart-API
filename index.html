@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+  }
+
+  #nN1 {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  .navHover:hover{
+    color: greenyellow;
+      }
+
+  /* li:hover{
+   color: greenyellow;
+  } */
+
+  .ok{
+  color: white;
+    text-decoration: none;
+  }
+
+  #nH {
+    padding-right: 1rem;
+  }
+  
+
+  .eleC {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+ 
+  .elementList {
+    border: 1px solid black;
+    width: 20%;
+    margin: 1rem;
+  }
+  
+  .innerBox {
+    padding-left: 1rem;
+  }
+  
+  .eleImage {
+    width: 100%;
+    height: 200px;
+    object-fit: fit;
+  }
+ .title{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 48%;
+    
+    
+  }
+  .title:hover{
+    color: brown;
+  }
+  span:hover{
+    border: 3px solid red;
+    transition: 5ms;
+  }
+
+    </style>
+    <title>Online-shopping.com</title>
+  </head>
+ <body>
+    <div class="upperDiv">
+        <nav class="mainNav" id="nN1">
+                <div class="navRight navHover">
+                <h1>Shriram Shopping</h1>
+            </div>
+            <div class="navLeft">
+                <ul>
+                   <a href="#" style="color: white;" class="ok">
+                      <li class="navHover" id="nH">Home</li>
+                   </a>
+                   <a href="#" style="color: white;" class="ok">
+                       <li class="navHover" id="nC">WishList-Cart</li>
+                   </a> 
+                </ul>
+            </div>
+        </nav>
+    </div>    
+    <div class="lowerDiv"> 
+       <div class="elementListInfo">
+           <div class="mainCon">
+              <h1 class="title" >All Items</h1>
+               <div class="eleC">
+                   <!-- elements -->
+               </div>
+           </div>  
+       </div>
+   </div>
+    <script src="script.js"></script>
+  </body>
+</html>
